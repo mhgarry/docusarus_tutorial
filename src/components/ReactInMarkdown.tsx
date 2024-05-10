@@ -2,7 +2,7 @@ export const Highlight = ({children, color}) => (
   <span
     style={{
       backgroundColor: color,
-      borderRadius: '40px',
+      borderRadius: '20px',
       color: '#fff',
       padding: '10px',
       cursor: 'pointer',
@@ -14,4 +14,7 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-This is <Highlight color="#a34343">React in Markdown!</Highlight>
+This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
+
+This is <Highlight color="#1877F2">Facebook blue</Highlight> !
+
